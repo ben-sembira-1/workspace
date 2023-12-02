@@ -1,6 +1,5 @@
-echo "Removing all docker images and settings, Do you want to continue? [y/n]"
-read -p "do you want? [y/n]" -N 1 remove-docker-images; echo
-if [[ ${remove-docker-images} =~ ^[Yy]$ ]]
+read -p "Removing all docker images and settings, Do you want to continue? [y/n]" -N 1 REMOVE_DOCKER_IMAGES; echo
+if [[ ${REMOVE_DOCKER_IMAGES} =~ ^[Yy]$ ]]
 then
     sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
     sudo rm -rf /var/lib/docker
