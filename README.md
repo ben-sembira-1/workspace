@@ -17,6 +17,12 @@ sudo apt install git
 mkdir ~/clones
 cd ~/clones
 git clone git@github.com:ben-sembira-1/workspace.git
-cd workspace
-./setup_workspace.sh
 ```
+
+### Step 3: Run the setup script
+```bash
+bash ~/clones/workspace/setup_workspace.sh
+```
+
+### Aditional things to do using GUI:
+1. Download google-chrome using the web-browser.
