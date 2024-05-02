@@ -7,7 +7,7 @@ Create a new ssh key with ssh-keygen:
 ```bash
 ssh-keygen
 ```
-Then, add the content of the file `~/.ssh/id_rsa.pub` to your trusted ssh keys in your github profile.
+Then, add the content of the file `~/.ssh/id_***.pub` to your trusted ssh keys in your github profile.
 
 
 ### Step 2: Clone this repo and run the setup script:
@@ -26,3 +26,4 @@ bash ~/clones/workspace/setup_workspace.sh
 
 ### Aditional things to do using GUI:
 1. Download google-chrome using the web-browser.
+1. Download VS code using the web-browser
