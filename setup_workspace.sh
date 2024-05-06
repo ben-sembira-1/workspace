@@ -9,6 +9,9 @@ sudo apt install -y \
     tree \
     tmux \
     vim \
+    python-is-python3 \
+    nodejs \
+    npm \
 
 bash ${SCRIPTS}/setup_git.sh
 
