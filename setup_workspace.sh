@@ -10,8 +10,10 @@ sudo apt install -y \
     tmux \
     vim \
     python-is-python3 \
+    ipython3 \
     nodejs \
     npm \
+    meld \
 
 bash ${SCRIPTS}/setup_git.sh
 
