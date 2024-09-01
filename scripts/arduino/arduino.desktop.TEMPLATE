@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Arduino
+Comment=Arduino IDE
+Exec=/usr/local/bin/arduino
+Path=HOME_DIR_PLACEHOLDER/Arduino/
+Icon=HOME_DIR_PLACEHOLDER/Arduino/arduino-icon.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;Development;

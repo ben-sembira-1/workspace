@@ -16,7 +16,7 @@ sudo apt install -y \
     meld \
 
 bash ${SCRIPTS}/setup_git.sh
-
 bash ${SCRIPTS}/setup_docker.sh
+bash ${SCRIPTS}/arduino/setup_arduino.sh
 
 echo "Finsihed, Please reboot the system"
