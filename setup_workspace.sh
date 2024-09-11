@@ -15,6 +15,7 @@ sudo apt install -y \
     npm \
     meld \
 
+bash ${SCRIPTS}/setup_homebrew.sh
 bash ${SCRIPTS}/setup_git.sh
 bash ${SCRIPTS}/setup_docker.sh
 bash ${SCRIPTS}/arduino/setup_arduino.sh
