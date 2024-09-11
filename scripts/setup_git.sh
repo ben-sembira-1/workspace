@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -euo pipefail
+
 read -p "Enter you email:" GIT_EMAIL; echo
 read -p "Enter you name:" GIT_NAME; echo
 

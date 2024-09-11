@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 SCRIPTS=$(dirname $0)/scripts/
 
 sudo apt update

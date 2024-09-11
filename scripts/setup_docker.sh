@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -euo pipefail
+
 read -p "Removing all docker images and settings, Do you want to continue? [y/n]" -N 1 REMOVE_DOCKER_IMAGES; echo
 if [[ ${REMOVE_DOCKER_IMAGES} =~ ^[Yy]$ ]]
 then
