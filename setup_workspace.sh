@@ -18,7 +18,7 @@ sudo apt install -y \
     meld \
     curl
 
-bash ${SCRIPTS}/setup_homebrew.sh
+source ${SCRIPTS}/setup_homebrew.sh
 bash ${SCRIPTS}/setup_git.sh
 bash ${SCRIPTS}/setup_docker.sh
 bash ${SCRIPTS}/setup_virtualbox.sh
