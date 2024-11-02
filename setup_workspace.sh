@@ -18,7 +18,8 @@ sudo apt install -y \
     meld \
     curl \
     simple-scan \
-    default-jre
+    default-jre \
+    logisim
 
 source ${SCRIPTS}/setup_homebrew.sh
 bash ${SCRIPTS}/setup_git.sh
