@@ -17,7 +17,8 @@ sudo apt install -y \
     npm \
     meld \
     curl \
-    simple-scan
+    simple-scan \
+    default-jre
 
 source ${SCRIPTS}/setup_homebrew.sh
 bash ${SCRIPTS}/setup_git.sh
