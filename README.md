@@ -26,4 +26,5 @@ bash ~/clones/workspace/setup_workspace.sh
 
 ### Aditional things to do using GUI:
 1. Download google-chrome using the web-browser.
-1. Download VS code using the web-browser
+1. Download VS code using the web-browser.
+1. Download eclipse ide for java from the internet.
