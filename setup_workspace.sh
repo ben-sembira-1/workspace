@@ -19,6 +19,7 @@ sudo apt install -y \
     curl \
     simple-scan \
     default-jre \
+    default-jdk \
     logisim
 
 source ${SCRIPTS}/setup_homebrew.sh
