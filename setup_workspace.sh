@@ -20,7 +20,8 @@ sudo apt install -y \
     simple-scan \
     default-jre \
     default-jdk \
-    logisim
+    logisim \
+    zoom
 
 source ${SCRIPTS}/setup_homebrew.sh
 bash ${SCRIPTS}/setup_git.sh
