@@ -8,7 +8,7 @@ sudo add-apt-repository universe -y
 sudo apt update
 sudo apt install -y libfuse2
 
-ARDUINO_IDE_INSTALLER="arduino-ide_2.3.3_Linux_64bit.AppImage"
+ARDUINO_IDE_INSTALLER="arduino-ide_2.3.4_Linux_64bit.AppImage"
 
 pushd ~/Downloads
 rm -f arduino-ide_*_Linux_64bit.AppImage
