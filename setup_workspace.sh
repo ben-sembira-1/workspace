@@ -21,7 +21,10 @@ sudo apt install -y \
     default-jre \
     default-jdk \
     logisim \
-    zoom
+    zoom \
+    ffmpeg \
+    iverilog \
+    gtkwave
 
 source ${SCRIPTS}/setup_homebrew.sh
 bash ${SCRIPTS}/setup_git.sh
