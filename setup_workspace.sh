@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-MODULES=$(dirname $0)/scripts/
+MODULES=$(dirname $0)/modules/
 
 sudo apt update
 sudo apt upgrade
