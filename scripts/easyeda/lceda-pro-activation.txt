@@ -1,0 +1,8 @@
+{
+    "username": "ben.sembira.1",
+    "customer_code": "9762635A",
+    "email": "ben.sembira.1@gmail.com",
+    "phone": "",
+    "company": "",
+    "license": "dXNlcm5hbWV8Y3VzdG9tZXJfY29kZXxlbWFpbHxwaG9uZXxjb21wYW55,lL0BRtgATLUf6BWMpvAO1tuDKp0QySJ44DlqnVdfa6jtNzwi2MauePhsyfVRaq8XA7RdF9nIJCgMj+6iuleAR4euEuXI2bE6PLmlN+kR9QKkSFH5Xx8N+KNIlpfmnDvjCx\/fmikbyaBeQ4VFsSdOmqudfYQTalC9gPOaFRbL4Lk="
+}

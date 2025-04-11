@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-SCRIPTS=$(dirname $0)/scripts/
+MODULES=$(dirname $0)/scripts/
 
 sudo apt update
 sudo apt upgrade
@@ -26,11 +26,12 @@ sudo apt install -y \
     iverilog \
     gtkwave
 
-source ${SCRIPTS}/setup_homebrew.sh
-bash ${SCRIPTS}/setup_git.sh
-bash ${SCRIPTS}/setup_docker.sh
-bash ${SCRIPTS}/setup_virtualbox.sh
-bash ${SCRIPTS}/arduino/setup_arduino.sh
-bash ${SCRIPTS}/arduino/setup_tau_vpn.sh
+source ${MODULES}/setup_homebrew.sh
+bash ${MODULES}/setup_git.sh
+bash ${MODULES}/setup_docker.sh
+bash ${MODULES}/setup_virtualbox.sh
+bash ${MODULES}/arduino/setup_arduino.sh
+bash ${MODULES}/arduino/setup_tau_vpn.sh
+bash ${MODULES}/easyeda/setup_easyeda.sh
 
 echo "Finsihed, Please reboot the system"
